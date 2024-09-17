@@ -1,0 +1,68 @@
+---
+title: "simple_quarto_website"
+format:
+    html:
+        toc: true
+        toc-title: "Table of Contents"
+bibliography: reference.bib
+---
+
+# Header 1:
+Lorem ipsum odor amet, consectetuer adipiscing elit. Ante ultricies sem felis torquent neque. Quis iaculis est lobortis magnis, finibus id a. Vehicula platea curae posuere egestas tortor. [@van2016data] feugiat dui nulla fames, dui non. Nascetur faucibus duis ad porta elit habitant hendrerit felis. Facilisi habitant sed ligula donec; hac natoque nisi feugiat.[^1] Imperdiet vulputate dolor sociosqu potenti nam suspendisse porttitor laoreet sapien.
+
+[^1]: This is a test footnote.
+
+| Player | Goals | Assists |
+| -------- | -------- | -------- |
+| Chris | 10 | 11 |
+| Olivia | 15 | 8 |
+
+![](/images/loopedmp4.mp4)
+
+## Header 2:
+- Odio ornare elementum hac commodo efficitur, lacinia litora maecenas? 
+- Porta semper vel fringilla urna volutpat faucibus lacinia. 
+- Viverra vulputate blandit eget porttitor rhoncus. 
+- Neque luctus maecenas aenean praesent vel. 
+- Phasellus praesent curae per urna hac. 
+- Placerat commodo tristique phasellus tortor natoque netus dis dui. 
+- Ac dictumst pulvinar consequat sagittis cras ante magnis mi. 
+- Ligula mattis congue lacinia venenatis per blandit dictumst feugiat.
+
+
+The quadratic formula is given by $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+
+Factorial Approximation:
+$$
+n! \sim \sqrt{2 \pi n} \left( \frac{n}{e} \right)^n
+$$
+
+<img src="/images/IMG_0588.JPG" alt="lucy" width="600" />
+
+<img src="/images/IMG_1039.jpg" alt="hiking" width="600" />
+
+### Header 3:
+::: columns
+::: {.column width="50%"}
+Massa parturient dui nullam enim rhoncus. Consequat inceptos blandit facilisis lacus vel est, elementum est. Proin elit at suspendisse nisl dictumst. Fermentum suspendisse lectus habitant non varius integer sociosqu. Lobortis maecenas tristique diam viverra maximus et. 
+:::
+
+::: {.column width="50%"}
+Sapien nascetur phasellus risus convallis mauris. Ullamcorper ante gravida placerat laoreet potenti. Venenatis lorem ut vehicula vulputate dignissim dui cursus dapibus. Eleifend enim suspendisse aliquam per magnis montes in.
+:::
+:::
+
+> Nisi diam ipsum lacinia nostra augue magnis morbi. Magna tincidunt adipiscing litora, efficitur phasellus adipiscing mi platea fames. Ad feugiat risus mauris curabitur conubia ipsum ac. Erat torquent eros ex fringilla neque arcu mi morbi risus. Tempus sem at nostra enim pellentesque curabitur. Volutpat vestibulum fringilla adipiscing facilisis; ad congue venenatis dignissim iaculis.
+
+```{mermaid}
+gantt
+dateFormat  2024-09-15
+title GANTT Diagram for my projects
+excludes weekdays 2024-09-01
+
+section DSAN tasks
+Completed task            :done,    des1, 2024-09-06,2024-09-08
+Active task               :active,  des2, 2024-09-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+```

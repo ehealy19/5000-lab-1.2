@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#header-2-this-is-lizzie",
+    "href": "about.html#header-2-this-is-lizzie",
+    "title": "About",
+    "section": "Header 2: This is Lizzie",
+    "text": "Header 2: This is Lizzie\nEfficitur suspendisse nascetur posuere eleifend pretium mus nibh. Orci commodo dapibus mus curae senectus natoque dui. Fringilla ad cubilia hac cras accumsan faucibus. Integer neque porta dui hendrerit lacinia proin. Sollicitudin ornare nisl natoque nascetur inceptos cras vestibulum luctus nec. Dictum nascetur cras non aliquam adipiscing luctus sed dolor.\n\nHeader 3: Working on Lab 1.2\nPharetra luctus adipiscing euismod magnis vel? Sed per a ante nam urna lectus tempor libero eu. Sociosqu mi augue conubia accumsan aliquet sit himenaeos dis eu. Phasellus neque mus habitant aliquam, suscipit aliquet et tristique. Vel parturient pellentesque ex metus dolor parturient nisl eleifend. Suscipit vestibulum accumsan eleifend porta etiam bibendum rhoncus. Facilisis fringilla suspendisse, felis integer dolor taciti. Conubia metus mattis efficitur pellentesque velit sollicitudin. Taciti sapien vulputate iaculis semper aenean ridiculus dui euismod.\n\nimport pandas as pd\nimport seaborn as sns\n\ndf = pd.DataFrame({\n    'age': [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65],\n    'height': [150, 155, 160, 165, 170, 175, 180, 185, 190, 195, 200, 205]},\n    index = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8', 'p9', 'p10', 'p11', 'p12'])\n\nplot_1=sns.relplot(\n    data=df, \n    x=\"age\", \n    y=\"height\", \n    s=200\n)\n\nFS = 14\nplot_1.set_axis_labels('Age of person (yrs)', 'Height (cm)', fontsize=FS)\nplot_1.set_titles('Height versus Age', fontsize=FS)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum odor amet, consectetuer adipiscing elit. Ante ultricies sem felis torquent neque. Quis iaculis est lobortis magnis, finibus id a. Vehicula platea curae posuere egestas tortor. (Van Der Aalst and Aalst 2016) feugiat dui nulla fames, dui non. Nascetur faucibus duis ad porta elit habitant hendrerit felis. Facilisi habitant sed ligula donec; hac natoque nisi feugiat.1 Imperdiet vulputate dolor sociosqu potenti nam suspendisse porttitor laoreet sapien.\n\n\n\nPlayer\nGoals\nAssists\n\n\n\n\nChris\n10\n11\n\n\nOlivia\n15\n8\n\n\n\nVideo\n\n\n\nOdio ornare elementum hac commodo efficitur, lacinia litora maecenas?\nPorta semper vel fringilla urna volutpat faucibus lacinia.\nViverra vulputate blandit eget porttitor rhoncus.\nNeque luctus maecenas aenean praesent vel.\nPhasellus praesent curae per urna hac.\nPlacerat commodo tristique phasellus tortor natoque netus dis dui.\nAc dictumst pulvinar consequat sagittis cras ante magnis mi.\nLigula mattis congue lacinia venenatis per blandit dictumst feugiat.\n\nThe quadratic formula is given by \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\).\nFactorial Approximation: \\[\nn! \\sim \\sqrt{2 \\pi n} \\left( \\frac{n}{e} \\right)^n\n\\]\n\n\n\n\n\n\nMassa parturient dui nullam enim rhoncus. Consequat inceptos blandit facilisis lacus vel est, elementum est. Proin elit at suspendisse nisl dictumst. Fermentum suspendisse lectus habitant non varius integer sociosqu. Lobortis maecenas tristique diam viverra maximus et.\n\nSapien nascetur phasellus risus convallis mauris. Ullamcorper ante gravida placerat laoreet potenti. Venenatis lorem ut vehicula vulputate dignissim dui cursus dapibus. Eleifend enim suspendisse aliquam per magnis montes in.\n\n\n\nNisi diam ipsum lacinia nostra augue magnis morbi. Magna tincidunt adipiscing litora, efficitur phasellus adipiscing mi platea fames. Ad feugiat risus mauris curabitur conubia ipsum ac. Erat torquent eros ex fringilla neque arcu mi morbi risus. Tempus sem at nostra enim pellentesque curabitur. Volutpat vestibulum fringilla adipiscing facilisis; ad congue venenatis dignissim iaculis.\n\n\n\n\n\n\ngantt\ndateFormat  2024-09-15\ntitle GANTT Diagram for my projects\nexcludes weekdays 2024-09-01\n\nsection DSAN tasks\nCompleted task            :done,    des1, 2024-09-06,2024-09-08\nActive task               :active,  des2, 2024-09-09, 3d\nFuture task               :         des3, after des2, 5d\nFuture task2               :         des4, after des3, 5d"
+  },
+  {
+    "objectID": "index.html#header-2",
+    "href": "index.html#header-2",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Odio ornare elementum hac commodo efficitur, lacinia litora maecenas?\nPorta semper vel fringilla urna volutpat faucibus lacinia.\nViverra vulputate blandit eget porttitor rhoncus.\nNeque luctus maecenas aenean praesent vel.\nPhasellus praesent curae per urna hac.\nPlacerat commodo tristique phasellus tortor natoque netus dis dui.\nAc dictumst pulvinar consequat sagittis cras ante magnis mi.\nLigula mattis congue lacinia venenatis per blandit dictumst feugiat.\n\nThe quadratic formula is given by \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\).\nFactorial Approximation: \\[\nn! \\sim \\sqrt{2 \\pi n} \\left( \\frac{n}{e} \\right)^n\n\\]\n\n\n\n\n\n\nMassa parturient dui nullam enim rhoncus. Consequat inceptos blandit facilisis lacus vel est, elementum est. Proin elit at suspendisse nisl dictumst. Fermentum suspendisse lectus habitant non varius integer sociosqu. Lobortis maecenas tristique diam viverra maximus et.\n\nSapien nascetur phasellus risus convallis mauris. Ullamcorper ante gravida placerat laoreet potenti. Venenatis lorem ut vehicula vulputate dignissim dui cursus dapibus. Eleifend enim suspendisse aliquam per magnis montes in.\n\n\n\nNisi diam ipsum lacinia nostra augue magnis morbi. Magna tincidunt adipiscing litora, efficitur phasellus adipiscing mi platea fames. Ad feugiat risus mauris curabitur conubia ipsum ac. Erat torquent eros ex fringilla neque arcu mi morbi risus. Tempus sem at nostra enim pellentesque curabitur. Volutpat vestibulum fringilla adipiscing facilisis; ad congue venenatis dignissim iaculis.\n\n\n\n\n\n\ngantt\ndateFormat  2024-09-15\ntitle GANTT Diagram for my projects\nexcludes weekdays 2024-09-01\n\nsection DSAN tasks\nCompleted task            :done,    des1, 2024-09-06,2024-09-08\nActive task               :active,  des2, 2024-09-09, 3d\nFuture task               :         des3, after des2, 5d\nFuture task2               :         des4, after des3, 5d"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is a test footnote.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "Lizzie’s Slides",
+    "section": "",
+    "text": "Vershynin, Roman. 2018. High-Dimensional Probability: An Introduction with Applications in Data Science. Vol. 47. Cambridge university press."
+  }
+]
